@@ -1,7 +1,7 @@
 ---
 title: "quo.wtf"
 url: "/quowtf"
-profile: profiles/quowtf.jpg
+profile: /profiles/quowtf.jpg
 ---
 
 {{< link name="blog" text="My Blog" url="https://quo.wtf" >}}
