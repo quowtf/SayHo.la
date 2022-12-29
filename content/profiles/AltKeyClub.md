@@ -1,7 +1,7 @@
 ---
 title: "AltKey.Club"
 url: "/AltKeyClub"
-profile: /profiles/AltKeyClub.jpg
+profile: /profiles/AltKeyClub.png
 ---
 
 {{< link name="cart" text="Tienda Online" url="https://altkey.club" >}}
