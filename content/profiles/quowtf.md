@@ -1,6 +1,6 @@
 ---
 title: "quo.wtf"
-url: "/quo.wtf"
+url: "/quowtf"
 profile: profiles/quowtf.jpg
 ---
 
