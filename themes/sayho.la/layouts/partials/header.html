@@ -1,0 +1,12 @@
+<header class="min-w-full hidden lg:block">
+  <div class="flex justify-end px-5 md:px-7 text-xs md:text-2xl">
+    <div class="">
+      <a href="/" class="font-serif">{{ .Site.Title }}</a>
+    </div>
+    <div class="justify-end font-serif">
+      {{- range .Site.Menus.main -}}
+      <a class="mr-2 md:mr-5" href="{{ .URL | absLangURL }}">{{- .Name -}}</a>
+      {{- end }}
+    </div>
+  </div>
+</header>

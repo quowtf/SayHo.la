@@ -1,0 +1,11 @@
+name = "SayHo.la"
+license = "MIT"
+licenselink = "https://github.com/quowtf/sayho.la/blob/master/LICENSE"
+description = "Simple Hugo theme."
+homepage = "https://github.com/quowtf/sayho.la"
+
+min_version = "0.41.0"
+
+[author]
+  name = "quowtf"
+  homepage = "https://quo.wtf"

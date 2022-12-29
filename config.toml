@@ -1,0 +1,17 @@
+baseURL = "https://sayho.la"
+languageCode = "us-EN"
+defaultContentLanguage = "en"
+title = "SayHo.la"
+theme = "sayho.la"
+
+[author]
+  name = "quowtf"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  homeSubtitle = "Your links in one place."
+  plausibleDomain = "sayho.la"
+  plausibleSrc = "https://plausible.quo.wtf/js/index.js"

@@ -1,0 +1,11 @@
+.vscode/
+# Generated files by hugo
+/public/
+.DS_Store
+themes/sayho.la/assets/theme.css
+themes/sayho.la/node_modules
+themes/sayho.la/.editorconfig
+themes/sayho.la/package.json
+themes/sayho.la/postcss.config.js
+themes/sayho.la/tailwind.config.js
+themes/sayho.la/yarn.lock
