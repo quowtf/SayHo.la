@@ -1,6 +1,5 @@
 ---
 title: "AltKey.Club"
-url: "/AltKeyClub"
 profile: /profiles/AltKeyClub.png
 ---
 
