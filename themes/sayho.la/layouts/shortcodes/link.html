@@ -1,6 +1,6 @@
-<div class="shadow-md rounded-md">
+<div class="link-tema{{- index .Page.Params "tema" -}}">
   <div class="sayhola md:mt-4 md:text-xl relative">
-    <span class="absolute p-4">
+    <span class="absolute m-5">
       {{with .Get "name"}}
         {{- partial "svg.html" . -}}
       {{end}}
@@ -8,7 +8,7 @@
     <a href="{{ .Get "url" | safeURL }}"
     title="{{ .Get "text" | humanize }}"
     class="flex absolute p-4 justify-center border-transparent
-     sayhola-link"
+     sayhola-link linktema{{- .Page.Params.tema -}}"
     target="_blank" rel="noopener me">
       <span class="">
         {{- .Get "text" -}}

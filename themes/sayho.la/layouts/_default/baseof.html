@@ -11,7 +11,7 @@
       <script async defer data-domain="{{- .Site.Params.plausibleDomain -}}" src="{{- .Site.Params.plausibleSrc -}}"></script>
     {{- end -}}
   </head>
-  <body class="bg-gray-100">
+  <body class="tema{{- .Params.tema -}}">
     <div class="flex flex-col min-h-screen m-auto">
       {{ block "header" . }}
         {{ partial "header.html" . }}
