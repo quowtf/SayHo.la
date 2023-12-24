@@ -1,12 +1,13 @@
 {{ define "main" }}
 <main class="m-auto w-full md:max-w-lg lg:max-w-xl mt-5" >
-  {{- with .Params.profile -}}
-  <div id="img-btn" class="sayhola-profile">
+  <div id="img-btn" class="m-auto sayhola-profile sayhola-profile-theme{{- .Params.tema -}}">
     <a id="dark-mode-toggle" class="fal fa-moon-o">
-      <img src="{{ . }}" class="rounded-full border-gray-500 border-4">
+      <img src="{{- .Params.profile -}}" class="rounded-full">
     </a>
+    {{with .Params.mood}}
+      <span class="bubble thought">{{- . -}}</span>
+    {{end}}
   </div>
-  {{- end -}}
   <header class="post-header">
     <h1 class="text-center">{{ .Title }}</h1>
   </header>

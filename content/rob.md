@@ -1,6 +1,7 @@
 ---
 title: "Roberto Esteban"
 profile: /profiles/rob.jpg
+mood: I rather be whole man than a good one
 ---
 
 {{< link name="blog" text="Blog" url="https://quo.wtf" >}}
