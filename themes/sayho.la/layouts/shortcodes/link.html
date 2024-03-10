@@ -1,16 +1,20 @@
 <div class="link-tema{{- index .Page.Params "tema" -}}">
   <div class="sayhola md:mt-4 md:text-xl relative">
-    <span class="absolute m-5">
-      {{with .Get "name"}}
+    {{with .Get "name"}}
+      <span class="absolute m-5">
         {{- partial "svg.html" . -}}
-      {{end}}
-    </span>
+      </span>
+    {{end}}
+    {{with .Get "icon"}}
+      <span class="custom-icon" style="background-image: url('{{.}}');">
+      </span>
+    {{end}}
     <a href="{{ .Get "url" | safeURL }}"
     title="{{ .Get "text" | humanize }}"
     class="flex absolute p-4 justify-center border-transparent
      sayhola-link linktema{{- .Page.Params.tema -}}"
     target="_blank" rel="noopener me">
-      <span class="">
+      <span>
         {{- .Get "text" -}}
       </span>
     </a>
